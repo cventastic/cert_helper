@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app:
+    build: ./build
+    environment:
+      SERVER_IP: ${SERVER_IP}
+      SERVER_CA: ${SERVER_CA}
+      ORG: ${ORG}
+      ORG_UNIT: ${ORG_UNIT}
+    volumes:
+      - ./cert:/out

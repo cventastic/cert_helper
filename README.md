@@ -10,5 +10,3 @@ ORG_UNIT=<name Org unit>
 ```
 
 certificates are inside cert folder after running container# dshackle_helper
-# dshackle_helper
-# dshackle_helper
