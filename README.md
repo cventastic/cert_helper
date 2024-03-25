@@ -1,4 +1,6 @@
-### companion container for to generate needed certificates
+### companion container to create ca and certs
+
+based on https://github.com/square/certstrap
 
 
 ### needs .env
